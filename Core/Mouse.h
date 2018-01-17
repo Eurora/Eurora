@@ -19,7 +19,7 @@ namespace Eurora
 	Bit MidButton();
 	//Returns 1 if right-button of the mouse is pressed
 	Bit RightButton();
-	//Returns Mouse Wheel delta value
+	//Returns Mouse Wheel delta value - NOTE: If that function is used in Android/iOS/PS4/XB1/Switch will return 0 and log a debug warning
 	S16 MouseWheel();
 	//Returns mouse position on screen coordinates to the variable MousePosition
 	void UpdateMousePosition();
